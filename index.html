@@ -158,6 +158,8 @@
   }
   .speaker-info{padding:20px 22px 24px;}
   .speaker-info h3{font-size:18px;margin-bottom:4px;}
+  .speaker-info h3 a{color:var(--ink);text-decoration:underline;text-underline-offset:2px;text-decoration-color:var(--rule);}
+  .speaker-info h3 a:hover{text-decoration-color:var(--ink);}
   .speaker-title{font-size:13.5px;color:var(--gold);font-weight:600;margin-bottom:12px;}
   .speaker-bio{font-size:14px;line-height:1.6;color:var(--ink-soft);}
   .tba-tag{
@@ -264,7 +266,7 @@
       </div>
       <!-- PLACEHOLDER: replace with final conference description -->
       <p>The Yale Prediction Markets Conference brings together researchers, traders, exchange operators, and policymakers to examine how prediction markets are moving from the margins of finance into the mainstream of forecasting and decision-making.</p>
-      <p>This year's sessions present new academic research on prediction markets: what drives their forecasting accuracy — the wisdom of the crowd or a small set of informed traders — and how the information (and noise) they generate spills over into traditional financial markets. Later sessions turn to how AI agents trade on these platforms and who ultimately wins and loses in prediction markets. Presenters join from Yale, London Business School, University of Pennsylvania, HEC Montréal, and Georgia State University, alongside a keynote address.</p>
+      <p>This year's sessions present new academic research on prediction markets: what drives their forecasting accuracy — the wisdom of the crowd or a small set of informed traders — and how the information (and noise) they generate spills over into traditional financial markets. Later sessions turn to how AI agents trade on these platforms, what prediction markets reveal about macroeconomic expectations, and who ultimately wins and loses. Presenters join from Yale, London Business School, University of Pennsylvania, HEC Montréal, Georgia State University, and the Federal Reserve Board, with a keynote from Kalshi.</p>
     </div>
     <div class="about-facts">
       <dl>
@@ -288,10 +290,10 @@
     <div class="speaker-grid">
 
       <div class="speaker-card">
-        <img class="speaker-photo-img" src="assets/headshot_toby.jpg" alt="Tobias J. Moskowitz">
+        <img class="speaker-photo-img" src="assets/headshot_toby.jpg" alt="Toby J. Moskowitz">
         <div class="speaker-info">
-          <h3>Tobias J. Moskowitz</h3>
-          <div class="speaker-title">Dean Takahashi '80 B.A., '83 M.P.P.M. Professor of Finance, Yale School of Management</div>
+          <h3><a href="https://faculty.som.yale.edu/tobymoskowitz/" target="_blank" rel="noopener">Toby J. Moskowitz</a></h3>
+          <div class="speaker-title">Dean Takahashi '80 B.A., '83 M.P.P.M. Professor of Finance, Yale University</div>
           <p class="speaker-bio">Moskowitz's research covers financial markets and investments, including asset pricing, investor behavior, and market efficiency. He is a Research Associate at the NBER and a Principal at AQR Capital Management, and received the American Finance Association's Fischer Black Prize in 2007.</p>
         </div>
       </div>
@@ -299,8 +301,8 @@
       <div class="speaker-card">
         <img class="speaker-photo-img" src="assets/headshot_theis.jpg" alt="Theis Ingerslev Jensen">
         <div class="speaker-info">
-          <h3>Theis Ingerslev Jensen</h3>
-          <div class="speaker-title">Assistant Professor of Finance, Yale School of Management</div>
+          <h3><a href="https://som.yale.edu/faculty-research/faculty-directory/theis-ingerslev-jensen" target="_blank" rel="noopener">Theis Ingerslev Jensen</a></h3>
+          <div class="speaker-title">Assistant Professor of Finance, Yale University</div>
           <p class="speaker-bio">Jensen's research focuses on empirical asset pricing, investor expectations, and behavioral finance, often using large datasets and machine learning. His recent work examines prediction markets and the role of informed traders in shaping market prices.</p>
         </div>
       </div>
@@ -308,7 +310,7 @@
       <div class="speaker-card">
         <img class="speaker-photo-img" src="assets/headshot_roberto.jpg" alt="Roberto Gómez-Cram">
         <div class="speaker-info">
-          <h3>Roberto Gómez-Cram</h3>
+          <h3><a href="https://www.rgomezcram.com/" target="_blank" rel="noopener">Roberto Gómez-Cram</a></h3>
           <div class="speaker-title">Assistant Professor of Finance, London Business School</div>
           <p class="speaker-bio">Gómez-Cram's research focuses on asset pricing, investments, and macro-finance. His recent work examines prediction markets as a source of real-time information about corporate earnings, government debt, and monetary policy.</p>
         </div>
@@ -328,9 +330,18 @@
     <div class="speaker-grid">
 
       <div class="speaker-card">
+        <img class="speaker-photo-img" src="assets/headshot_anthony.jpg" alt="Anthony M. Diercks">
+        <div class="speaker-info">
+          <h3><a href="https://www.anthonydiercks.com/" target="_blank" rel="noopener">Anthony M. Diercks</a></h3>
+          <div class="speaker-title">Special Adviser to the Board, Federal Reserve Board of Governors</div>
+          <p class="speaker-bio">Diercks is Special Adviser to the Board at the Federal Reserve Board of Governors, where his research spans asset pricing, macroeconomics, and monetary policy. He is a co-author of "Kalshi and the Rise of Macro Markets" and "The Treasury Tantrum of 2023," and his work has appeared in the Journal of Political Economy and the Review of Financial Studies.</p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
         <img class="speaker-photo-img" src="assets/headshot_itay.jpg" alt="Itay Goldstein">
         <div class="speaker-info">
-          <h3>Itay Goldstein</h3>
+          <h3><a href="https://fnce.wharton.upenn.edu/profile/itayg/" target="_blank" rel="noopener">Itay Goldstein</a></h3>
           <div class="speaker-title">Joel S. Ehrenkranz Family Professor of Finance, The Wharton School, University of Pennsylvania</div>
           <p class="speaker-bio">Goldstein chairs Wharton's Finance Department and directs its Initiative on Financial Policy and Regulation. His research examines financial fragility and crises and the feedback effects between firms and financial markets, and he has advised institutions including the Federal Reserve, the Bank for International Settlements, and the IMF.</p>
         </div>
@@ -339,16 +350,25 @@
       <div class="speaker-card">
         <img class="speaker-photo-img" src="assets/headshot_vincent.jpg" alt="Vincent Grégoire">
         <div class="speaker-info">
-          <h3>Vincent Grégoire</h3>
+          <h3><a href="https://www.vincentgregoire.com/" target="_blank" rel="noopener">Vincent Grégoire</a></h3>
           <div class="speaker-title">Professor of Finance, HEC Montréal · Canada Research Chair in Finance and Technology</div>
           <p class="speaker-bio">Grégoire's research examines the intersection of finance and technology, with a focus on prediction markets, market microstructure, and algorithmic trading. His recent work studies trading and the distribution of gains and losses in prediction markets, including evidence from Polymarket.</p>
         </div>
       </div>
 
       <div class="speaker-card">
+        <img class="speaker-photo-img" src="assets/headshot_nicole.jpg" alt="Nicole Kagan">
+        <div class="speaker-info">
+          <h3><a href="https://www.linkedin.com/in/nicole-kagan/" target="_blank" rel="noopener">Nicole Kagan</a></h3>
+          <div class="speaker-title">Head of Research, Kalshi · Fireside Chat with Toby Moskowitz</div>
+          <p class="speaker-bio">Kagan leads research at Kalshi, where she helped build the exchange's market design and contract-writing functions. She previously worked on the macro trading team at Bridgewater Associates and as an AI strategist at Hebbia.</p>
+        </div>
+      </div>
+
+      <div class="speaker-card">
         <img class="speaker-photo-img" src="assets/headshot_zhen.jpg" alt="Zhen Shi">
         <div class="speaker-info">
-          <h3>Zhen Shi</h3>
+          <h3><a href="https://robinson.gsu.edu/profile/zhen-shi/" target="_blank" rel="noopener">Zhen Shi</a></h3>
           <div class="speaker-title">Associate Professor of Finance, J. Mack Robinson College of Business, Georgia State University</div>
           <p class="speaker-bio">Shi's research spans investments, financial institutions, behavioral finance, and empirical asset pricing, with particular expertise in hedge funds and mutual funds, including portfolio disclosure and liquidity.</p>
         </div>
@@ -368,32 +388,32 @@
     <div class="agenda-list">
 
       <div class="agenda-item">
-        <div class="agenda-time">9:00 AM</div>
+        <div class="agenda-time">8:30 AM</div>
         <div class="agenda-body">
           <h3>Registration &amp; Continental Breakfast</h3>
         </div>
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">9:30 AM</div>
+        <div class="agenda-time">9:00 AM</div>
         <div class="agenda-body">
           <h3>Welcome &amp; Opening Remarks</h3>
         </div>
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">9:40 AM</div>
+        <div class="agenda-time">9:10 AM</div>
         <div class="agenda-body">
           <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6617059" target="_blank" rel="noopener">Prediction Market Accuracy: Crowd Wisdom or Informed Minority?</a></h3>
           <div class="agenda-people">
-            <div>Presenter: Roberto Gómez-Cram, London Business School</div>
+            <div>Presenter: Theis Jensen, Yale University</div>
             <div>Discussant: TBA</div>
           </div>
         </div>
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">10:25 AM</div>
+        <div class="agenda-time">9:55 AM</div>
         <div class="agenda-body">
           <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7198379" target="_blank" rel="noopener">Learning from Prediction Markets: The Transmission of Information and Noise to Traditional Assets</a></h3>
           <div class="agenda-people">
@@ -404,28 +424,32 @@
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">11:10 AM</div>
+        <div class="agenda-time">10:40 AM</div>
         <div class="agenda-body">
           <h3>Coffee Break</h3>
         </div>
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">11:30 AM</div>
+        <div class="agenda-time">11:00 AM</div>
         <div class="agenda-body">
-          <h3>Keynote Address</h3>
+          <h3>Fireside Chat</h3>
+          <div class="agenda-people">
+            <div>Nicole Kagan, Kalshi</div>
+            <div>Toby Moskowitz, Yale University</div>
+          </div>
         </div>
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">12:20 PM</div>
+        <div class="agenda-time">11:50 AM</div>
         <div class="agenda-body">
           <h3>Lunch</h3>
         </div>
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">1:45 PM</div>
+        <div class="agenda-time">1:15 PM</div>
         <div class="agenda-body">
           <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7317060" target="_blank" rel="noopener">Trading Without Conviction: Anatomy of an AI-Only Prediction Market</a></h3>
           <div class="agenda-people">
@@ -436,25 +460,25 @@
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">2:30 PM</div>
+        <div class="agenda-time">2:00 PM</div>
         <div class="agenda-body">
-          <h3>Paper 4: TBA</h3>
+          <h3><a href="https://www.federalreserve.gov/econres/feds/files/2026010pap.pdf" target="_blank" rel="noopener">Kalshi and the Rise of Macro Markets</a></h3>
           <div class="agenda-people">
-            <div>Presenter: TBA</div>
+            <div>Presenter: Anthony M. Diercks, Federal Reserve Board</div>
             <div>Discussant: TBA</div>
           </div>
         </div>
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">3:15 PM</div>
+        <div class="agenda-time">2:45 PM</div>
         <div class="agenda-body">
           <h3>Coffee Break</h3>
         </div>
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">3:40 PM</div>
+        <div class="agenda-time">3:10 PM</div>
         <div class="agenda-body">
           <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443103" target="_blank" rel="noopener">Who Wins and Loses in Prediction Markets</a></h3>
           <div class="agenda-people">
@@ -465,18 +489,18 @@
       </div>
 
       <div class="agenda-item">
-        <div class="agenda-time">4:25 PM</div>
+        <div class="agenda-time">3:55 PM</div>
         <div class="agenda-body">
-          <h3>Paper 6: TBA</h3>
+          <h3>Prediction Markets Research</h3>
           <div class="agenda-people">
-            <div>Presenter: TBA</div>
+            <div>Presenter: Toby Moskowitz, Yale University</div>
             <div>Discussant: TBA</div>
           </div>
         </div>
       </div>
 
       <div class="agenda-item" style="border-bottom:none;">
-        <div class="agenda-time">5:10 PM</div>
+        <div class="agenda-time">4:40 PM</div>
         <div class="agenda-body">
           <h3>Closing Remarks</h3>
         </div>
